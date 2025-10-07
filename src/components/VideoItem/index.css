@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0px;
+}
+
+.video-link-item {
+  text-decoration: none;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+
+  width: 320px;
+
+  margin-top: 0px;
+  max-height: 250px;
+}
+
+.image-container {
+  padding-top: 13px;
+}
+
+@media screen and (min-width: 767px) {
+  .list-item {
+    width: 190px;
+    margin-right: 8px;
+  }
+}
+
+.selected {
+  color: #2563eb;
+}
+
+.not-selected {
+  color: #64748b;
+}
